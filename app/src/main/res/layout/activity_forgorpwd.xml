@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_above="@+id/fbl"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/head"
+                    android:layout_width="200dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/app_logo_big" />
+            </LinearLayout>
+
+            <customclass.MyTextView
+                android:id="@+id/or"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:layout_marginBottom="25dp"
+                android:text="Enter the e-mail / phone associated with your account to get password."
+                android:textColor="@color/navigationBarColor"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_above="@+id/tvSignup"
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/newpassword"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorhint"
+                    android:textColor="@color/colortext">
+
+                    <customclass.MyEditText
+                        android:id="@+id/etforgotemailphone"
+                        android:textSize="@dimen/menu_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email / Phone"
+                        android:layout_marginLeft="46dp"
+                        android:layout_marginRight="46dp"
+                        android:textColorHint="@color/textSub"
+                        android:textColor="@color/Tex"
+                        android:background="#0000"
+                        android:padding="10dp"
+                        android:gravity="left"
+                        android:singleLine="true"
+                        android:drawableLeft="@mipmap/user"
+                        android:drawablePadding="12dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginRight="56dp"
+                    android:layout_height="1dp"
+                    android:background="@color/red"/>
+
+
+
+            </LinearLayout>
+
+
+            <customclass.MyTextView
+                android:layout_above="@+id/signinline"
+                android:id="@+id/tvSubmitnewpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect1"
+                android:text="Submit"
+                android:layout_marginTop="20dp"
+                android:textSize="@dimen/menu_text"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:padding="12dp"
+                android:elevation="1.5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+

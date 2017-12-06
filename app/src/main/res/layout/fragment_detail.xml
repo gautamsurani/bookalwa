@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvProductDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:fadeScrollbars="false"
+            android:scrollbarSize="5dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbarThumbVertical="@color/colorPrimary"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+    <customclass.MyTextView
+        android:id="@+id/tvIsEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:gravity="center"
+        android:text="Coming soon.."
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/menu_text"
+        android:visibility="gone" />
+
+</RelativeLayout>

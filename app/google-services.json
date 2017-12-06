@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "833636185261",
+    "firebase_url": "https://booksalways-com.firebaseio.com",
+    "project_id": "booksalways-com",
+    "storage_bucket": "booksalways-com.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833636185261:android:727b4e4b12c329dc",
+        "android_client_info": {
+          "package_name": "com.booksalways.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833636185261-eg6bqvaqe8jgoc4trh4cbdve3krh3nq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeskxWhqZdecwc0Q852zARpnD-e_kGm58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
